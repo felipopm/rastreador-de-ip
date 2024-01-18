@@ -22,7 +22,7 @@ body {
     align-items: center;
     justify-content: center;
 
-    border: red solid 1px;
+    /* border: red solid 1px; */
 }
 
 .titulo {
@@ -31,7 +31,7 @@ body {
     justify-content: center;
     color: white;
 
-    border: red solid 1px;
+    /* border: red solid 1px; */
 
 }
 
@@ -42,7 +42,7 @@ body {
 
     margin-bottom: 30px;
 
-    border: red solid 1px;
+    /* border: red solid 1px; */
 
 }
 
@@ -82,7 +82,7 @@ input {
     justify-content: center;
     width: auto;
 
-    border: red solid 1px;
+    /* border: red solid 1px; */
 }
 .dados {
     display: flex;
@@ -93,7 +93,7 @@ input {
     background-color: white;
     padding-left: 20px;
 
-    border: red solid 1px;
+    /* border: red solid 1px; */
 }
 
 .linhavertical {
@@ -111,5 +111,5 @@ input {
 
     height: 677px;
 
-    border: red solid 1px;
+    /* border: red solid 1px; */
 }
