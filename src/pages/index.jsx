@@ -28,16 +28,25 @@ function Home() {
                 </div>
                 <div className={styles.predados}>
                     <div className={styles.dados}>
-                        <p>IP Address</p>
+                        <div className={styles.dado}>
+                            <p>IP Address</p>
+                            <h2>IP</h2>
+                        </div>
                         <hr className={styles.linhavertical} />
-                        <p>Location</p>
+                        <div  className={styles.dado}>
+                            <p>Location</p>
+                            <h2>location</h2>
+                        </div>
                         <hr className={styles.linhavertical} />
-                        <div>
+                        <div  className={styles.dado}>
                             <p>Timezone</p>
                             <h2>UTC</h2> {/* add offset value dynamically using the API  */}
                         </div>
                         <hr className={styles.linhavertical} />
-                        <p>ISP</p>
+                        <div  className={styles.dado}>
+                            <p>ISP</p>
+                            <h2>isp</h2>
+                        </div>
                     </div>
                 </div>
                 <div id="map" className={styles.mapa}></div>

@@ -4,17 +4,16 @@
     font-family: 'Rubik', sans-serif;
     margin: 0px;
     padding: 0px;
-
-    background: url('../assets/pattern-bg-desktop.png') center/cover no-repeat;
-
-    background-size: 100%;
-    background-position: top;
 }
 
 body {
     margin: 0px;
     padding: 0px;
     height: 100vh;
+
+    background: url('../assets/pattern-bg-desktop.png') center/cover no-repeat;
+    background-size: 100% 255px;
+    background-position: top;
 }
 
 .conteudo {
@@ -71,6 +70,7 @@ input {
 
     /* border: red solid 1px; */
 }
+
 .seta:hover {
     background-color: black;
     cursor: pointer;
@@ -80,18 +80,31 @@ input {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    z-index: 2;
     width: auto;
 
-    /* border: red solid 1px; */
+    border: red solid 1px;
 }
 .dados {
     display: flex;
+    align-items: center;
     justify-content: space-around;
     width: 1000px;
-    height: 140px;
+    height: 110px;
     border-radius: 15px;
     background-color: white;
     padding-left: 20px;
+
+    /* border: red solid 1px; */
+}
+.dado p {
+    color: #858585;
+
+    /* border: red solid 1px; */
+}
+.dado {    
+    width: 200px;
 
     /* border: red solid 1px; */
 }
@@ -100,16 +113,21 @@ input {
     /* display: flex;
     align-items: center; */
     border-left: 1px solid #ccc;
-    height: 100px;
+    height: 50px;
     margin: 0 15px;
+
+    /* border: red solid 1px; */
 }
 
 .mapa {
+    position: relative;
+    z-index: 1;
     display: flex;
     align-items: center;
     justify-content: center;
-
     height: 677px;
+
+    margin-top: -75px;
 
     /* border: red solid 1px; */
 }
